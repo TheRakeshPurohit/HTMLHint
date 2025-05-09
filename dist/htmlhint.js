@@ -484,7 +484,7 @@
 	            const originalAttrs = JSON.stringify(listOfAttributes);
 	            listOfAttributes.sort((a, b) => {
 	                if (orderMap[a] == undefined && orderMap[b] == undefined) {
-	                    return 0;
+	                    return a.localeCompare(b);
 	                }
 	                if (orderMap[a] == undefined) {
 	                    return 1;
@@ -1089,7 +1089,7 @@
 	    init(parser, reporter) {
 	        parser.addListener('text', (event) => {
 	            const raw = event.raw;
-	            const reSpecChar = /([<>])|( \& )/g;
+	            const reSpecChar = /([<>])/g;
 	            let match;
 	            while ((match = reSpecChar.exec(raw))) {
 	                const fixedPos = parser.fixPos(event, match.index);
