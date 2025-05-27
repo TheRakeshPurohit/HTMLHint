@@ -36,16 +36,15 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: '../docs',
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: `${GITHUB_URL}/edit/main/website/`,
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          editUrl: `${GITHUB_URL}/edit/master/docs/`,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        googleAnalytics: { trackingID: 'UA-109578378-3' },
       }),
     ],
   ],
@@ -106,8 +105,7 @@ const config = {
         copyright: `${new Date().getFullYear()} HTMLHint. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        themes: [lightCodeTheme, darkCodeTheme],
       },
     }),
 }

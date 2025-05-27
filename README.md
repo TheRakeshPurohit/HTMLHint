@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://htmlhint.com"><img src="https://raw.githubusercontent.com/htmlhint/HTMLHint/master/website/static/img/htmlhint.png" alt="Logo HTMLHint" width="170"></a>
+  <a href="https://htmlhint.com"><img src="https://raw.githubusercontent.com/htmlhint/HTMLHint/main/website/static/img/htmlhint.png" alt="Logo HTMLHint" width="170"></a>
   <br>
   HTMLHint
   <br>
@@ -9,16 +9,18 @@
 <h4 align="center">The static code analysis tool you need for your HTML.</h4>
 
 <p align="center">
-  <a href="https://travis-ci.org/htmlhint/HTMLHint">
-    <img src="https://img.shields.io/travis/htmlhint/HTMLHint.svg" alt="Travis Build Status">
+  <a href="https://www.npmjs.com/package/htmlhint">
+    <img src="https://img.shields.io/npm/v/htmlhint" alt="npm Version">
   </a>
   <a href="https://codecov.io/gh/htmlhint/HTMLHint">
-    <img src="https://codecov.io/gh/htmlhint/HTMLHint/branch/master/graph/badge.svg" alt="Codecov">
+    <img src="https://codecov.io/gh/htmlhint/HTMLHint/branch/main/graph/badge.svg" alt="Codecov">
   </a>
   <a href="https://www.npmjs.com/package/htmlhint">
     <img src="https://img.shields.io/npm/dm/htmlhint.svg" alt="npm count">
   </a>
-  <img src="https://badgen.net/badge/license/MIT/green" alt="MIT License" />
+  <a href="https://github.com/htmlhint/HTMLHint/blob/main/LICENSE.md">
+    <img src="https://badgen.net/badge/license/MIT/green" alt="MIT License" />
+  </a>
 </p>
 
 <p align="center">
